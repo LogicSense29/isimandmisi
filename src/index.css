@@ -41,6 +41,7 @@ body {
 
 .hero-box-item-two{
   flex: 2;
+  position: relative;
 }
 
 .hero-box-item-three{
@@ -56,6 +57,27 @@ body {
    height: 50%;
 }
 
+.hero-text {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  font-size: 1.5rem;
+  width: 50%;
+  border: 2px solid red;
+}
+
+.hero-heading {
+  color: white;
+}
+
+#cta {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #7741BF;
+  color: white;
+}
 /* NAVBAR START */
 
 .navbar {
