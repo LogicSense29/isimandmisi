@@ -1,5 +1,6 @@
 import React from "react"
 import NavBar from "../components/NavBar";
+import Cta from "../components/Cta";
 
 function Header() {
     return(
@@ -11,8 +12,8 @@ function Header() {
                         <div className="hero-box-item-two">
                         <div className="hero-text">
                         <h1 className="hero-heading">A Place where Your health Resonants</h1>
-                        <p className="hero-p"></p>
-                        <button id="cta">BOOK A SESSION</button>
+                        <p className="hero-p">you body, your Pride</p>
+                        <Cta/>
                         </div>
                         </div>
                         <div className="hero-box-item-three"></div>

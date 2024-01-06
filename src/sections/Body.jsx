@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import sectionOneImage from "../assets/isimandmisi-patners.jpg"
 import sectionOneImageTwo from "../assets/isimandmisi-patners-two.jpg"
+import Card from '../components/Card'
+import Gallery from '../components/Gallery'
 
 function Body() {
   const [onImageHover, setOnImageHover] = useState(false)
@@ -34,6 +36,9 @@ function Body() {
       <h2>ISMIANDMISI AMBIENCE</h2>
       </div>
       <div className='content-container-for-section-two'>
+      <div className='ac-container'>
+      <Gallery/>
+      </div>
       </div>
     </div>
     <div className='section-three'>
